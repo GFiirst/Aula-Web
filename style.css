@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body{
     color: white;
     background-color: rgb(24, 23, 23);
-    font-family:= 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 1200px;
+    margin:0 auto;
     padding: 15px;
 }
 header{
@@ -10,8 +12,56 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+}
+h3{
+    margin: 0;
+    padding: 0; 
+}
+h2{
+    margin: 0;
+    font-size: 40px;
+    padding: 0;
 }
 li{
     display: inline-block;
     margin: 20px;
+}
+a{
+    color: rgba(255, 250, 250, 0.945);
+}
+a:hover{
+    color: rgb(165, 62, 190);
+}
+main{
+    gap: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+img{
+    width: 500px;
+}
+input{
+    outline: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+}
+#btn-enviar{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 50%;
+}
+#btn-enviar:hover{
+    cursor: pointer;
+    background-color: rgb(192, 126, 223);
 }
